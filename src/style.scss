@@ -1,0 +1,79 @@
+$body-color: blue;
+
+h1 {
+  margin: 2rem 2rem 1rem;
+}
+
+.body-app {
+  display: flex;
+  margin: 0 2rem;
+  justify-content: center;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem 0 0;
+}
+
+.title-scores {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  padding-right: 1rem;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.refresh-btn {
+  width: fit-content;
+  margin: 0;
+  align-content: flex-end;
+  background: none;
+  border: 1px solid black;
+}
+
+.dinamic-scores {
+  border: 2px solid black;
+  max-width: 100%;
+}
+
+.scores-container:nth-child(odd) {
+  background-color: #e0e0e2;
+}
+
+.input-name {
+  border: 1px solid black;
+  padding: 3px;
+  margin-bottom: 0.5rem;
+  width: 96%;
+}
+
+.input-score {
+  border: 1px solid black;
+  padding: 3px;
+  width: 96%;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.submit-btn {
+  width: fit-content;
+  align-content: flex-end;
+  background: none;
+  border: 1px solid black;
+  margin: 0;
+}
