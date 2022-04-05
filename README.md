@@ -21,7 +21,7 @@ For a live demo [click here](https://alexr16.github.io/To-Do-list/) -->
 
 To get a local copy up and running follow this simple step:
 
-Clone repository to your local machine: `git@github.com:Alexr16/To-Do-list.git`
+Clone repository to your local machine: `git@github.com:Alexr16/Leaderboard.git`
 
 ### Run project
 
