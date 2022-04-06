@@ -1,7 +1,9 @@
-$body-color: blue;
+$btn-hover: #536e87;
+$shadow: #536e87;
 
 h1 {
-  margin: 2rem 2rem 1rem;
+  margin: 2rem 10rem 1rem;
+  font-size: 3em;
 }
 
 .body-app {
@@ -13,7 +15,8 @@ h1 {
 .scores {
   display: flex;
   flex-direction: column;
-  padding: 0 2rem 0 0;
+  padding: 0 5rem 0 0;
+  width: 40%;
 }
 
 .title-scores {
@@ -23,6 +26,7 @@ h1 {
 
 h2 {
   padding-right: 1rem;
+  font-size: 2em;
 }
 
 h3 {
@@ -34,34 +38,52 @@ h3 {
   font-weight: bold;
 }
 
+p {
+  margin: 0;
+  padding: 0.5rem;
+}
+
 .refresh-btn {
   width: fit-content;
   margin: 0;
   align-content: flex-end;
   background: none;
-  border: 1px solid black;
+  border: 2px solid black;
+  box-shadow: 3px 3px $shadow;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.refresh-btn:hover {
+  background: $btn-hover;
 }
 
 .dinamic-scores {
   border: 2px solid black;
   max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 3px 5px $shadow;
 }
 
-.scores-container:nth-child(odd) {
+.scores-container:nth-child(even) {
   background-color: #e0e0e2;
 }
 
 .input-name {
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 3px;
   margin-bottom: 0.5rem;
   width: 96%;
+  border-radius: 5px;
+  box-shadow: 3px 3px $shadow;
 }
 
 .input-score {
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 3px;
   width: 96%;
+  border-radius: 5px;
+  box-shadow: 3px 3px $shadow;
 }
 
 .submit-button {
@@ -74,6 +96,29 @@ h3 {
   width: fit-content;
   align-content: flex-end;
   background: none;
-  border: 1px solid black;
+  border: 2px solid black;
   margin: 0;
+  box-shadow: 3px 3px $shadow;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background: $btn-hover;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    margin: 0 2rem;
+    padding-top: 1rem;
+  }
+
+  .body-app {
+    flex-direction: column;
+  }
+
+  .scores {
+    width: 100%;
+    padding: 0;
+  }
 }
