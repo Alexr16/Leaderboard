@@ -50,7 +50,6 @@ h3 {
   -webkit-margin-end: 0;
           margin-inline-end: 0;
   font-weight: bold;
-  font-size: 2em;
 }
 
 p {
@@ -67,22 +66,22 @@ p {
       align-content: flex-end;
   background: none;
   border: 2px solid black;
-  -webkit-box-shadow: 3px 3px #536E87;
-          box-shadow: 3px 3px #536E87;
+  -webkit-box-shadow: 3px 3px #536e87;
+          box-shadow: 3px 3px #536e87;
   cursor: pointer;
   border-radius: 5px;
 }
 
 .refresh-btn:hover {
-  background: #536E87;
+  background: #536e87;
 }
 
 .dinamic-scores {
   border: 2px solid black;
   max-width: 100%;
   border-radius: 5px;
-  -webkit-box-shadow: 3px 5px #536E87;
-          box-shadow: 3px 5px #536E87;
+  -webkit-box-shadow: 3px 5px #536e87;
+          box-shadow: 3px 5px #536e87;
 }
 
 .scores-container:nth-child(even) {
@@ -95,8 +94,8 @@ p {
   margin-bottom: 0.5rem;
   width: 96%;
   border-radius: 5px;
-  -webkit-box-shadow: 3px 3px #536E87;
-          box-shadow: 3px 3px #536E87;
+  -webkit-box-shadow: 3px 3px #536e87;
+          box-shadow: 3px 3px #536e87;
 }
 
 .input-score {
@@ -104,8 +103,8 @@ p {
   padding: 3px;
   width: 96%;
   border-radius: 5px;
-  -webkit-box-shadow: 3px 3px #536E87;
-          box-shadow: 3px 3px #536E87;
+  -webkit-box-shadow: 3px 3px #536e87;
+          box-shadow: 3px 3px #536e87;
 }
 
 .submit-button {
@@ -127,14 +126,14 @@ p {
   background: none;
   border: 2px solid black;
   margin: 0;
-  -webkit-box-shadow: 3px 3px #536E87;
-          box-shadow: 3px 3px #536E87;
+  -webkit-box-shadow: 3px 3px #536e87;
+          box-shadow: 3px 3px #536e87;
   cursor: pointer;
   border-radius: 5px;
 }
 
 .submit-btn:hover {
-  background: #536E87;
+  background: #536e87;
 }
 
 @media only screen and (max-width: 768px) {
