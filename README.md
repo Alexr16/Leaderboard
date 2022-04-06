@@ -7,7 +7,7 @@
 ## Screenshot
 
 <img src="./leaderboard.png">
-
+<img src="./lmobile.png">
 ## Built With
 
 - HTML
