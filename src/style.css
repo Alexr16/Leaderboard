@@ -67,21 +67,22 @@ p {
       align-content: flex-end;
   background: none;
   border: 2px solid black;
-  -webkit-box-shadow: 3px 3px #888;
-          box-shadow: 3px 3px #888;
+  -webkit-box-shadow: 3px 3px #536E87;
+          box-shadow: 3px 3px #536E87;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .refresh-btn:hover {
-  background: blue;
+  background: #536E87;
 }
 
 .dinamic-scores {
   border: 2px solid black;
   max-width: 100%;
   border-radius: 5px;
-  -webkit-box-shadow: 3px 5px #888;
-          box-shadow: 3px 5px #888;
+  -webkit-box-shadow: 3px 5px #536E87;
+          box-shadow: 3px 5px #536E87;
 }
 
 .scores-container:nth-child(even) {
@@ -94,8 +95,8 @@ p {
   margin-bottom: 0.5rem;
   width: 96%;
   border-radius: 5px;
-  -webkit-box-shadow: 3px 3px #888;
-          box-shadow: 3px 3px #888;
+  -webkit-box-shadow: 3px 3px #536E87;
+          box-shadow: 3px 3px #536E87;
 }
 
 .input-score {
@@ -103,8 +104,8 @@ p {
   padding: 3px;
   width: 96%;
   border-radius: 5px;
-  -webkit-box-shadow: 3px 3px #888;
-          box-shadow: 3px 3px #888;
+  -webkit-box-shadow: 3px 3px #536E87;
+          box-shadow: 3px 3px #536E87;
 }
 
 .submit-button {
@@ -126,12 +127,30 @@ p {
   background: none;
   border: 2px solid black;
   margin: 0;
-  -webkit-box-shadow: 3px 3px #888;
-          box-shadow: 3px 3px #888;
+  -webkit-box-shadow: 3px 3px #536E87;
+          box-shadow: 3px 3px #536E87;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .submit-btn:hover {
-  background: blue;
+  background: #536E87;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    margin: 0 2rem;
+    padding-top: 1rem;
+  }
+  .body-app {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .scores {
+    width: 100%;
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,5 @@
-$btn-hover: blue;
+$btn-hover: #536E87;
+$shadow: #536E87;
 
 h1 {
   margin: 2rem 10rem 1rem;
@@ -49,8 +50,9 @@ p {
   align-content: flex-end;
   background: none;
   border: 2px solid black;
-  box-shadow: 3px 3px #888;
+  box-shadow: 3px 3px $shadow;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .refresh-btn:hover {
@@ -61,7 +63,7 @@ p {
   border: 2px solid black;
   max-width: 100%;
   border-radius: 5px;
-  box-shadow: 3px 5px #888
+  box-shadow: 3px 5px $shadow;
 }
 
 .scores-container:nth-child(even) {
@@ -74,7 +76,7 @@ p {
   margin-bottom: 0.5rem;
   width: 96%;
   border-radius: 5px;
-  box-shadow: 3px 3px #888;
+  box-shadow: 3px 3px $shadow;
 }
 
 .input-score {
@@ -82,7 +84,7 @@ p {
   padding: 3px;
   width: 96%;
   border-radius: 5px;
-  box-shadow: 3px 3px #888;
+  box-shadow: 3px 3px $shadow;
 }
 
 .submit-button {
@@ -97,10 +99,27 @@ p {
   background: none;
   border: 2px solid black;
   margin: 0;
-  box-shadow: 3px 3px #888;
+  box-shadow: 3px 3px $shadow;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .submit-btn:hover {
   background: $btn-hover;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    margin: 0 2rem;
+    padding-top: 1rem;
+  }
+  
+  .body-app {
+    flex-direction: column;
+  }
+
+  .scores {
+    width: 100%;
+    padding: 0;
+  }
 }
