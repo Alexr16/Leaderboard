@@ -1,4 +1,4 @@
-$body-color: blue;
+$btn-hover: blue;
 
 h1 {
   margin: 2rem 10rem 1rem;
@@ -49,12 +49,19 @@ p {
   align-content: flex-end;
   background: none;
   border: 2px solid black;
-  box-shadow: 3px 3px #888888
+  box-shadow: 3px 3px #888;
+  cursor: pointer;
+}
+
+.refresh-btn:hover {
+  background: $btn-hover;
 }
 
 .dinamic-scores {
   border: 2px solid black;
   max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 3px 5px #888
 }
 
 .scores-container:nth-child(even) {
@@ -66,12 +73,16 @@ p {
   padding: 3px;
   margin-bottom: 0.5rem;
   width: 96%;
+  border-radius: 5px;
+  box-shadow: 3px 3px #888;
 }
 
 .input-score {
   border: 2px solid black;
   padding: 3px;
   width: 96%;
+  border-radius: 5px;
+  box-shadow: 3px 3px #888;
 }
 
 .submit-button {
@@ -86,5 +97,10 @@ p {
   background: none;
   border: 2px solid black;
   margin: 0;
-  box-shadow: 3px 3px #888888
+  box-shadow: 3px 3px #888;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: $btn-hover;
 }
